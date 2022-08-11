@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#46C62828"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poona Hospital"
+        android:textSize="24sp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/ic_local_hospital_black_24dp"
+        android:drawablePadding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1232371912"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="#C61565C0"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        />
+
+</LinearLayout>
